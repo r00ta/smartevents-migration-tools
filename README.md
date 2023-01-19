@@ -24,4 +24,4 @@ pip install -r requirements.txt
 
 ## List of migrations
 
-1. [MGDOBR-1415](https://issues.redhat.com/browse/MGDOBR-1415): Once you get the new TLS certificates, you have to patch all the existing secrets (for v1). Login into the target cluster and then run `python migrations/MGDOBR-1415.py`.
+1. [MGDOBR-1415](https://issues.redhat.com/browse/MGDOBR-1415): Once you get the new TLS certificates, you have to patch all the existing secrets (for v1). Login into the target cluster and then run the [script](migrations/MGDOBR-1415.py) `python migrations/MGDOBR-1415.py`.
